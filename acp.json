@@ -1,0 +1,28 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-haulage-governance-bridge-mcp",
+    "description": "The MEOK Compliance-to-Governance Bridge. Crosswalk any haulage compliance attestation (DVSA",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-haulage-governance-bridge-mcp"
+      }
+    ],
+    "capabilities": [
+      "crosswalk_to_ai_act",
+      "classify_ai_risk_tier",
+      "list_provider_obligations",
+      "list_deployer_obligations",
+      "generate_fria_inputs",
+      "generate_ifu_skeleton",
+      "crosswalk_to_nist_rmf",
+      "crosswalk_to_iso_42001",
+      "chain_attestations",
+      "check_uk_ai_bill_art_22c"
+    ]
+  }
+}

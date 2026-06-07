@@ -1,0 +1,26 @@
+# meok-haulage-governance-bridge-mcp
+
+> The MEOK Compliance-to-Governance Bridge. Crosswalk any haulage compliance attestation (DVSA, FMCSA, EU 561, BS 7121, NHVR, IATA DGR, IMO MARPOL, etc.) into the matching EU AI Act + AI governance obligations. Single integration MCP. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- crosswalk_to_ai_act
+- classify_ai_risk_tier
+- list_provider_obligations
+- list_deployer_obligations
+- generate_fria_inputs
+- generate_ifu_skeleton
+- crosswalk_to_nist_rmf
+- crosswalk_to_iso_42001
+- chain_attestations
+- check_uk_ai_bill_art_22c
+
+## Install
+```
+pip install meok-haulage-governance-bridge-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-haulage-governance-bridge-mcp/
+- Docs: https://meok.ai

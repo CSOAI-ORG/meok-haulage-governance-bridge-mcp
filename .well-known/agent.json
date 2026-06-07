@@ -1,0 +1,113 @@
+{
+  "name": "meok-haulage-governance-bridge-mcp",
+  "description": "The MEOK Compliance-to-Governance Bridge. Crosswalk any haulage compliance attestation (DVSA",
+  "url": "https://proofof.ai/scorecard/meok-haulage-governance-bridge-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "crosswalk_to_ai_act",
+      "name": "Crosswalk To Ai Act",
+      "description": "crosswalk_to_ai_act via meok-haulage-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "classify_ai_risk_tier",
+      "name": "Classify Ai Risk Tier",
+      "description": "classify_ai_risk_tier via meok-haulage-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_provider_obligations",
+      "name": "List Provider Obligations",
+      "description": "list_provider_obligations via meok-haulage-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_deployer_obligations",
+      "name": "List Deployer Obligations",
+      "description": "list_deployer_obligations via meok-haulage-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_fria_inputs",
+      "name": "Generate Fria Inputs",
+      "description": "generate_fria_inputs via meok-haulage-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_ifu_skeleton",
+      "name": "Generate Ifu Skeleton",
+      "description": "generate_ifu_skeleton via meok-haulage-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "crosswalk_to_nist_rmf",
+      "name": "Crosswalk To Nist Rmf",
+      "description": "crosswalk_to_nist_rmf via meok-haulage-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "crosswalk_to_iso_42001",
+      "name": "Crosswalk To Iso 42001",
+      "description": "crosswalk_to_iso_42001 via meok-haulage-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "chain_attestations",
+      "name": "Chain Attestations",
+      "description": "chain_attestations via meok-haulage-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_uk_ai_bill_art_22c",
+      "name": "Check Uk Ai Bill Art 22C",
+      "description": "check_uk_ai_bill_art_22c via meok-haulage-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

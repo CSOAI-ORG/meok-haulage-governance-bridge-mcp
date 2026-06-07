@@ -1,0 +1,43 @@
+{
+  "name": "meok-haulage-governance-bridge-mcp",
+  "title": "Meok Haulage Governance Bridge Mcp",
+  "description": "The MEOK Compliance-to-Governance Bridge. Crosswalk any haulage compliance attestation (DVSA, FMCSA, EU 561, BS 7121, NHVR, IATA DGR, IMO MARPOL, etc.) into the matching EU AI Act + AI governance obligations. Single integration MCP. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "crosswalk_to_ai_act"
+    },
+    {
+      "name": "classify_ai_risk_tier"
+    },
+    {
+      "name": "list_provider_obligations"
+    },
+    {
+      "name": "list_deployer_obligations"
+    },
+    {
+      "name": "generate_fria_inputs"
+    },
+    {
+      "name": "generate_ifu_skeleton"
+    },
+    {
+      "name": "crosswalk_to_nist_rmf"
+    },
+    {
+      "name": "crosswalk_to_iso_42001"
+    },
+    {
+      "name": "chain_attestations"
+    },
+    {
+      "name": "check_uk_ai_bill_art_22c"
+    }
+  ]
+}

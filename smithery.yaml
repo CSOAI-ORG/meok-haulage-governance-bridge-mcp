@@ -1,0 +1,38 @@
+name: meok-haulage-governance-bridge-mcp
+description: 'The MEOK Compliance-to-Governance Bridge. Crosswalk any haulage compliance attestation (DVSA'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-haulage-governance-bridge-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: crosswalk_to_ai_act
+  description: crosswalk to ai act
+- name: classify_ai_risk_tier
+  description: classify ai risk tier
+- name: list_provider_obligations
+  description: list provider obligations
+- name: list_deployer_obligations
+  description: list deployer obligations
+- name: generate_fria_inputs
+  description: generate fria inputs
+- name: generate_ifu_skeleton
+  description: generate ifu skeleton
+- name: crosswalk_to_nist_rmf
+  description: crosswalk to nist rmf
+- name: crosswalk_to_iso_42001
+  description: crosswalk to iso 42001
+- name: chain_attestations
+  description: chain attestations
+- name: check_uk_ai_bill_art_22c
+  description: check uk ai bill art 22c
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

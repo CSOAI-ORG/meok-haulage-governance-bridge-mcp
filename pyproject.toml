@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meok-haulage-governance-bridge-mcp"
+version = "1.0.0"
+description = "The MEOK Compliance-to-Governance Bridge. Crosswalk any haulage compliance attestation (DVSA, FMCSA, EU 561, BS 7121, NHVR, IATA DGR, IMO MARPOL, etc.) into the matching EU AI Act + AI governance obligations. Single integration MCP. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "governance", "eu-ai-act", "fria", "haulage", "ai-governance", "compliance-bridge", "attestation", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://haulage.app"
+Repository = "https://github.com/CSOAI-ORG/meok-haulage-governance-bridge-mcp"
+
+[project.scripts]
+meok-haulage-governance-bridge-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]
