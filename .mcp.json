@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-haulage-governance-bridge-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-haulage-governance-bridge-mcp"
+      ]
+    }
+  }
+}
