@@ -62,7 +62,7 @@ And the haulage trade-compliance stack:
 - **Fleet** — £799/mo
 - **Substrate** — £2,999/mo (regulator-grade evidence chain, audit export, SLA)
 
-[Subscribe Pro → £79/mo](https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j)
+[Subscribe Pro → £79/mo](https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t)
 
 ## Regulatory basis
 

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-haulage-governance-bridge-mcp"
-version = "1.0.0"
+version = "1.0.2"
 description = "The MEOK Compliance-to-Governance Bridge. Crosswalk any haulage compliance attestation (DVSA, FMCSA, EU 561, BS 7121, NHVR, IATA DGR, IMO MARPOL, etc.) into the matching EU AI Act + AI governance obligations. Single integration MCP. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }

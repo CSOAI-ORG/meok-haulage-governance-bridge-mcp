@@ -1,0 +1,222 @@
+{
+  "name": "Meok Haulage Governance Bridge Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-haulage-governance-bridge-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "The MEOK Compliance-to-Governance Bridge. Crosswalk any haulage compliance attestation (DVSA, FMCSA, EU 561, BS 7121, NHVR, IATA DGR, IMO MARPOL, etc.) into the matching EU AI Act + AI governance obligations. Single integration MCP. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "crosswalk_to_ai_act",
+      "name": "Crosswalk To Ai Act",
+      "description": "Crosswalk To Ai Act — a tool of the meok-haulage-governance-bridge-mcp MCP.",
+      "tags": [
+        "compliance",
+        "governance",
+        "attestation",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "classify_ai_risk_tier",
+      "name": "Classify Ai Risk Tier",
+      "description": "Classify Ai Risk Tier — a tool of the meok-haulage-governance-bridge-mcp MCP.",
+      "tags": [
+        "compliance",
+        "governance",
+        "attestation",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_provider_obligations",
+      "name": "List Provider Obligations",
+      "description": "List Provider Obligations — a tool of the meok-haulage-governance-bridge-mcp MCP.",
+      "tags": [
+        "compliance",
+        "governance",
+        "attestation",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_deployer_obligations",
+      "name": "List Deployer Obligations",
+      "description": "List Deployer Obligations — a tool of the meok-haulage-governance-bridge-mcp MCP.",
+      "tags": [
+        "compliance",
+        "governance",
+        "attestation",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_fria_inputs",
+      "name": "Generate Fria Inputs",
+      "description": "Generate Fria Inputs — a tool of the meok-haulage-governance-bridge-mcp MCP.",
+      "tags": [
+        "compliance",
+        "governance",
+        "attestation",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_ifu_skeleton",
+      "name": "Generate Ifu Skeleton",
+      "description": "Generate Ifu Skeleton — a tool of the meok-haulage-governance-bridge-mcp MCP.",
+      "tags": [
+        "compliance",
+        "governance",
+        "attestation",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "crosswalk_to_nist_rmf",
+      "name": "Crosswalk To Nist Rmf",
+      "description": "Crosswalk To Nist Rmf — a tool of the meok-haulage-governance-bridge-mcp MCP.",
+      "tags": [
+        "compliance",
+        "governance",
+        "attestation",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "crosswalk_to_iso_42001",
+      "name": "Crosswalk To Iso 42001",
+      "description": "Crosswalk To Iso 42001 — a tool of the meok-haulage-governance-bridge-mcp MCP.",
+      "tags": [
+        "compliance",
+        "governance",
+        "attestation",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "chain_attestations",
+      "name": "Chain Attestations",
+      "description": "Chain Attestations — a tool of the meok-haulage-governance-bridge-mcp MCP.",
+      "tags": [
+        "compliance",
+        "governance",
+        "attestation",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_uk_ai_bill_art_22c",
+      "name": "Check Uk Ai Bill Art 22C",
+      "description": "Check Uk Ai Bill Art 22C — a tool of the meok-haulage-governance-bridge-mcp MCP.",
+      "tags": [
+        "compliance",
+        "governance",
+        "attestation",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-haulage-governance-bridge-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
