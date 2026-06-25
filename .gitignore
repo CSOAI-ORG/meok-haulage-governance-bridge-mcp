@@ -5,3 +5,8 @@ dist/
 build/
 .pytest_cache/
 .deepeval/
+
+*_sigil.log
+bridge_sigil.log
+scoreboard_sigil.log
+__pycache__/
